@@ -82,33 +82,3 @@ app.get('/', async (req,res) => {
 
 app.listen(PORT, ()=> console.log(`Server running on PORT ${PORT}`));
 
-
-
-
-
-//getPriceFeed()
-
-
-
-
-// axios(url)
-//     .then(response => {
-//         const html= response.data
-//         const $ = cheerio.load(html)
-//         const articles = []
-
-
-//         $('.media__title', html).each(function(){
-//            const title = $(this).text().trim()
-//            const link = $(this).find('a').attr('href')
-
-//            articles.push({
-//             title,
-//             link
-//            })
-//             console.log(articles);
-
-//         })
-//     })
-
-// app.listen(PORT, ()=> console.log(`Server running on PORT ${PORT}`));
